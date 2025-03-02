@@ -79,3 +79,4 @@ function SportsDetails(props) {
               </div>
             </div>
           ))}
+ </h1>
