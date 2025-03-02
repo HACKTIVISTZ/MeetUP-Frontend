@@ -20,6 +20,14 @@ function Team() {
               pic="trc.jpg"
               role="Backend Developer"
             />
+             <Card
+              name="Parthib Biswas"
+              pic="Parthib.JPG"
+              role="Frontend Developer"
+              linkedin="https://www.linkedin.com/in/parthib-biswas-79b06029b/"
+              github="https://github.com/ParthibBiswas10"
+            />
+
 
   );
 }
