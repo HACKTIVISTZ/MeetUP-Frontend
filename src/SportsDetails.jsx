@@ -83,3 +83,4 @@ function SportsDetails(props) {
          </>
   );
 }
+export default SportsDetails;
