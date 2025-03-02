@@ -13,3 +13,13 @@ function SportsDetails(props) {
   useEffect(() => {
     // console.log(props);
     let url = props.name === "" ? "" : `?venue=${props.name}`;
+     console.log(props);
+    if (props.name === "" && props.skill != "") url = `?skill=${props.skill}`;
+
+    const options = {
+      method: "GET",
+      credentials: "include",
+      headers: {
+        "Content-Type": "application/json; charset=UTF-8",
+      },
+    };
