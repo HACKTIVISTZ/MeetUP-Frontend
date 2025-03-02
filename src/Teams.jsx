@@ -14,6 +14,13 @@ function Team() {
               linkedin="https://www.linkedin.com/in/unmesh-ghosh/"
               github="https://github.com/Unmesh100"
             />
+            <Card
+              className="small-text"
+              name="Tridib Roy Chowdhury"
+              pic="trc.jpg"
+              role="Backend Developer"
+            />
+
   );
 }
 
