@@ -80,3 +80,6 @@ function SportsDetails(props) {
             </div>
           ))}
  </h1>
+         </>
+  );
+}
