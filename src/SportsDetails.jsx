@@ -63,3 +63,19 @@ function SportsDetails(props) {
                 marginTop: "20px",
               }}
             >
+              <div className={props.name} style={footballStyle}>
+                <h4 key={i}>{data[key].activity}:</h4>
+                <h4>
+                  <a href={props.details} style={{ color: "blue" }}>
+                    {" "}
+                    Details
+                  </a>
+                </h4>
+                <div style={eventDetailsStyle}>
+                  <span>Venue: {data[key].venue}</span>
+                  <span>Time: {data[key].time}</span>
+                  <span>Player Required: </span>z{" "}
+                </div>
+              </div>
+            </div>
+          ))}
