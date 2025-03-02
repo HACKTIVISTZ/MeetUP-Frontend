@@ -38,7 +38,7 @@ function Team() {
             </div>
           </main>
          </div>
-
+</>
 
   );
 }
