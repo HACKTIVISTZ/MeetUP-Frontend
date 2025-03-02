@@ -36,6 +36,7 @@ function Team() {
               github="https://github.com/Dhriti007"
             />
             </div>
+          </main>
 
 
   );
