@@ -35,6 +35,7 @@ function Team() {
               linkedin="https://www.linkedin.com/in/dhritiman-bhattacharjee-b399a5292/"
               github="https://github.com/Dhriti007"
             />
+            </div>
 
 
   );
