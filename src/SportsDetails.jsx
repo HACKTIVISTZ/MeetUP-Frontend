@@ -30,3 +30,18 @@ function SportsDetails(props) {
   });
 
   x++;
+  const footballStyle = {
+    width: "1000px",
+    padding: "10px",
+    backgroundColor: "white",
+    color: "black",
+    borderRadius: "10px",
+    marginTop: "20px",
+    boxSizing: "border-box",
+  };
+  const eventDetailsStyle = {
+    display: "flex",
+    justifyContent: "space-between",
+    marginTop: "10px",
+    fontSize: "20px",
+  };
