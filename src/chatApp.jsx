@@ -27,7 +27,7 @@ const Chatbot = () => {
       
     };
       
-    fetch(`https://meetup-backend-1.onrender.com/KickIt/chatApp`, options)
+    fetch(`https://meetup-backend-ti7h.onrender.com/KickIt/chatApp`, options)
       .then((res) =>res.json())
       .then((data) =>{
         if(x==0){

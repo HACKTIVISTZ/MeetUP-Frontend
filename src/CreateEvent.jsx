@@ -41,7 +41,7 @@ function CreateEvent() {
       body: JSON.stringify(eventData),
     };
 
-    fetch(`https://meetup-backend-1.onrender.com/KickIt/createEvent`, options)
+    fetch(`https://meetup-backend-ti7h.onrender.com/KickIt/createEvent`, options)
       .then((res) => res.json())
       .then((data) => console.log(data))
       .catch((error) => console.log("here we go"));

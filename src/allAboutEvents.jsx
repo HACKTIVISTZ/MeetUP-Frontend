@@ -12,7 +12,7 @@ function AllEvents() {
     },
       body: JSON.stringify({"status":"success"}),
     }
-    fetch('https://meetup-backend-1.onrender.com/KickIt/updateMatches', options2)
+    fetch('https://meetup-backend-ti7h.onrender.com/KickIt/updateMatches', options2)
       .then((res) => res.json())
       .then((data) => console.log(data))
       .catch((error) => console.error("Error:", error));

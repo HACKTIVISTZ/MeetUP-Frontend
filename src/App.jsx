@@ -24,9 +24,9 @@ function AuthModal({ isOpen, onClose, onSubmit }) {
     e.preventDefault();
     onSubmit(activeTab, formData);
     if (formData.confirmPassword) {
-      url = "https://meetup-backend-1.onrender.com/KickIt/signUp";
+      url = "https://meetup-backend-ti7h.onrender.com/KickIt/signUp";
     } else {
-      url = "https://meetup-backend-1.onrender.com/KickIt/login/";
+      url = "https://meetup-backend-ti7h.onrender.com/KickIt/login/";
     }
     const options = {
       method: "POST",

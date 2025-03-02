@@ -22,7 +22,7 @@ function Profile() {
         
       };
   
-    fetch('https://meetup-backend-1.onrender.com/KickIt/profile/', options)
+    fetch('https://meetup-backend-ti7h.onrender.com/KickIt/profile/', options)
       .then((res) => {
         if (!res.ok) {
           throw new Error('Network response was not ok');

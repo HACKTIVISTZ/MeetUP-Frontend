@@ -22,7 +22,7 @@ function UpdateProfile() {
     },
       body: JSON.stringify(data),
     }
-    fetch('https://meetup-backend-1.onrender.com/KickIt/profileUpdate', options2)
+    fetch('https://meetup-backend-ti7h.onrender.com/KickIt/profileUpdate', options2)
       .then((res) => res.json())
       .then((data) => console.log('hi'))
       .catch((error) => console.error("Error:", error));
@@ -36,7 +36,7 @@ function UpdateProfile() {
       body: formData,
      };
 
-     fetch('http://127.0.0.1:8000/KickIt/profileUpdate', options)
+     fetch('https://meetup-backend-ti7h.onrender.com/KickIt/profileUpdate', options)
        .then((res) => res.json())
      .then((data) => console.log(data))
      .catch((error) => console.error("Error:", error));

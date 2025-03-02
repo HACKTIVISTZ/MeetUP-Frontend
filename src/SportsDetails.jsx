@@ -24,7 +24,7 @@ function SportsDetails(props) {
         "Content-Type": "application/json; charset=UTF-8",
       },
     };
-    fetch(`https://meetup-backend-1.onrender.com/KickIt/home${url}`, options)
+    fetch(`https://meetup-backend-ti7h.onrender.com/KickIt/home${url}`, options)
       .then((res) => res.json())
       .then((data) => setData(data.data))
       .catch((error) => console.log("here we go"));

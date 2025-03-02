@@ -12,7 +12,7 @@ function Tournament() {
                 "Content-Type": "application/json; charset=UTF-8",
             },
         };
-        axios.get(`https://meetup-backend-1.onrender.com/KickIt/getTournaments`, options)
+        axios.get(`https://meetup-backend-ti7h.onrender.com/KickIt/getTournaments`, options)
             .then((res) => {
                 console.log(res.data.data);
                 setData(res.data.data.tour);
