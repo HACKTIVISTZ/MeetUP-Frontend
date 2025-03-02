@@ -1,7 +1,7 @@
 # KickIt Documentation
 
 ## Overview
-KickIt is a WebApp designed to connect sports enthusiasts who want to play the same sport offline. Users can select a sport they are interested in playing, and if another user chooses the same sport, an event will be created for them to join and play together. Additionally, the platform provides a chat feature for communication between matched users.
+KickIt is a WebApp designed to connect sports enthusiasts who want to play the same sport offline.Users can select a sport they are interested in playing, and if another user chooses the same sport, an event will be created for them to join and play together. Additionally, the platform provides a chat feature for communication between matched users.
 
 ## Features
 - **Sport Selection**: Users can select their preferred sport to play.
