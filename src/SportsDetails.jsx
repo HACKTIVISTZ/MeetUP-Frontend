@@ -45,3 +45,21 @@ function SportsDetails(props) {
     marginTop: "10px",
     fontSize: "20px",
   };
+  const check = () => {
+    return data !== "";
+  };
+
+  return (
+    <>
+      <h1>
+        {data &&
+          Object.keys(data).map((key, i) => (
+            <div
+              className="sports"
+              key={i}
+              style={{
+                display: "-moz-initial",
+                justifyContent: "center",
+                marginTop: "20px",
+              }}
+            >
